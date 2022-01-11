@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27758606-6574-43c4-b74b-8f33fa5f1a53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpenseDate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpenseDate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpenseItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpenseItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/Expenses.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/Expenses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpensesFilter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpensesFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpensesList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses/ExpensesList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense/NewExpense.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense/NewExpense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-complete-guide.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +40,25 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/styling-react-component/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,11 +68,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641921866580</updated>
-      <workItem from="1641921869761" duration="40000" />
+      <workItem from="1641921869761" duration="4023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
