@@ -13,7 +13,8 @@ const App = () => {
   const addGoalHandler = enteredText => {
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
-      updatedGoals.unshift({ text: enteredText, id: 'goal1' });
+      //hardcoded id
+      updatedGoals.unshift({ text: enteredText, id: Math.random() });
       return updatedGoals;
     });
   };
@@ -36,14 +37,16 @@ const App = () => {
   }
 
   return (
-
-      <section id="goal-form">
-        <CourseInput onAddGoal={addGoalHandler} />
-      </section>
-      <section id="goals">
-        {content}
-      </section>
-
+      <div>
+        <section id="goal-form">
+          <CourseInput onAddGoal={addGoalHandler} />
+          {/*Uncaught ReferenceError: addGooalHandler is not defined*/}
+          {/*<CourseInput onAddGoal={addGooalHandler} />*/}
+        </section>
+        <section id="goals">
+          {content}
+        </section>
+      </div>
   );
 };
 
