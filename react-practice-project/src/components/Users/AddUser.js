@@ -3,8 +3,8 @@ import Card from "../UI/Card";
 import classes from './AddUser.module.css'
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
-const AddUser = props => {
 
+const AddUser = props => {
   const [enteredUsername, setEnteredUsername] = useState('');
   const [enteredAge, setEnteredAge] = useState('');
   const [error, setError] = useState()
@@ -29,22 +29,19 @@ const AddUser = props => {
     setEnteredUsername('')
     setEnteredAge('')
   }
-
-  const usernameChangeHandler = (e) => {
+  const usernameChangeHandler = ( e ) => {
     setEnteredUsername(e.target.value)
   }
-
-  const ageChangeHandler = (e) => {
+  const ageChangeHandler = ( e ) => {
     setEnteredAge(e.target.value)
   }
-
   const errorHandler = () => {
     setError(null)
   }
   return (
-    <div>
-      {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}/>}
-      <Card className={classes.input}>
+    [
+      error && <ErrorModal key={'add-user-error'} title={error.title} message={error.message} onConfirm={errorHandler}/>,
+      <Card key={'add-user-card'} className={classes.input}>
         <form onSubmit={addUserHandler}>
           <label htmlFor="username">Username</label>
           <input id={"username"} type="text" value={enteredUsername} onChange={usernameChangeHandler}/>
@@ -53,8 +50,7 @@ const AddUser = props => {
           <Button type={"submit"}>Add user</Button>
         </form>
       </Card>
-    </div>
+    ]
   )
 }
-
 export default AddUser
