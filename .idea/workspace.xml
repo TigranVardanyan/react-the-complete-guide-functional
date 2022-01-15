@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27758606-6574-43c4-b74b-8f33fa5f1a53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-complete-guide.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/CourseGoals/CourseInput/CourseInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/styling-react-component/src/components/UI/Button/Button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641921866580</updated>
-      <workItem from="1641921869761" duration="4023000" />
+      <workItem from="1641921869761" duration="4475000" />
     </task>
     <servers />
   </component>
