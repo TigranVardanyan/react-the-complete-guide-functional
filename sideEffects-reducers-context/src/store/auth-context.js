@@ -32,7 +32,7 @@ export const AuthContextProvider = (props) => {
       onLogin: loginHandler
     }}
   >
-    {props.child}
+    {props.children}
   </AuthContext.Provider>
 }
 
